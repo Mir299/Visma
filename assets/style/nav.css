@@ -1,0 +1,62 @@
+.nav{
+    padding: 40px 0;
+
+}
+.nav__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav__list-link{
+    padding:10px 5px;
+    border-radius: 5cm;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: var(--black);
+transition: all .5s;
+}
+.nav__list-link:hover{
+    color:var(--white);
+     background: var(--black);
+}
+
+.nav__form{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+.nav__form input{
+   
+  max-width: 194px;
+    height: 24px;
+    border-bottom: 1px solid var(--black);
+    opacity: 0.2; 
+
+}
+
+
+
+.nav__list-bar button{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 26px;
+line-height: 140%;
+color: var(--black);
+position: relative;
+background: none;
+}
+.nav__list-bar button::before{
+content: url('../img/other/V.svg');
+position: absolute;
+bottom: 4px;
+right: -20px;
+}
